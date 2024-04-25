@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+#To-do-input {
+  text-align: center;
+  margin-bottom: 100px;
+}
+#To-do-input input {
+  width: 500px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 20px;
+  padding: 10px;
+}
+#To-do-input button {
+  border: none;
+  height: 45px;
+  width: 75px;
+  background-color: greenyellow;
+  border: none;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  padding: 0;
+  border-radius: 20px;
+}
+#To-do-list {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#To-do-list div {
+  min-width: 600px;
+  width: auto;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  /* padding: 10px; */
+}
+#To-do-list div p {
+  flex-grow: 9;
+  text-align: left;
+  /* border: 1px solid; */
+  padding: 5px;
+  /* border-radius: 20px; */
+}
+.dltbtn {
+  border: none;
+  height: 45px;
+  width: 75px;
+  background-color: red;
+  border: none;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  margin-left: 45px;
+  border-radius: 20px;
+}
+.edtbtn {
+  border: none;
+  height: 45px;
+  width: 75px;
+  background-color: greenyellow;
+  border: none;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  margin-left: 45px;
+  border-radius: 20px;
+}
